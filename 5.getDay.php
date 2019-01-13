@@ -19,4 +19,4 @@ function getDay($day) {
     return $week[$day];
 }
 
-echo "Текущий день недели: ".getDay(date('w') + 1);
+echo "Текущий день недели: ".getDay(date('N'));
